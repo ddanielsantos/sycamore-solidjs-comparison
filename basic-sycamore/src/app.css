@@ -1,0 +1,47 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.List {
+  background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.List>h2 {
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.PostContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px 70px;
+  gap: 10px;
+}
+
+.Post {
+  padding: 10px;
+  border: 1px solid black;
+  flex: 0 1 100%;
+  background-color: white;
+  max-width: 800px;
+  border-radius: 5px;
+  transition: 1s;
+}
+
+.Post:hover {
+  box-shadow: 0px 0px 10px rgb(132, 132, 132);
+  border-radius: 15px;
+  transition: 1s;
+}
+
+.Post>h3 {
+  font-size: 1.5em;
+  margin: 0px;
+}

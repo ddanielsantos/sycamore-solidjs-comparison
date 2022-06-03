@@ -1,0 +1,11 @@
+[package]
+name = "hello-sycamore"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sycamore = {version ="0.8.0-beta.6", features = ["suspense"]}
+reqwasm = "0.5.0"
+serde = "1.0.137"
